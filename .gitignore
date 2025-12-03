@@ -1,0 +1,55 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter runtime files
+.jupyter/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environments / package managers
+*.egg-info/
+env/
+ENV/
+pip-wheel-metadata/
+
+# Data files (optional: ignore raw data)
+data/*.csv
+data/*.tsv
+data/*.json
+data/*.xlsx
+data/*.parquet
+
+# Large files (optional)
+*.h5
+*.hdf5
+*.sqlite
+*.db
+
+# Results / outputs
+outputs/
+results/
+figures/
+plots/
+
+# Cache
+.cache/
+.ipython/
